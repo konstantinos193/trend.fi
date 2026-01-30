@@ -1,0 +1,14 @@
+export const SOLANA_RPC_URL =
+  process.env.NEXT_PUBLIC_SOLANA_RPC_URL ?? "http://127.0.0.1:8899";
+
+export const TREND_FACTORY_PROGRAM_ID =
+  process.env.NEXT_PUBLIC_FACTORY_PROGRAM_ID ??
+  "GoPZh3S6q3K4XqEZPBSKo3qJ5PWYcdHiR4wrMX6si4kn";
+
+export const TREND_ORACLE_PROGRAM_ID =
+  process.env.NEXT_PUBLIC_ORACLE_PROGRAM_ID ??
+  "AoZnjiFNkMH2mGKUfqoF6PTaoUMK4H4GbwXva5Jg1RGz";
+
+export const TREND_TRADING_PROGRAM_ID =
+  process.env.NEXT_PUBLIC_TRADING_PROGRAM_ID ??
+  "8n4jg5QajLtAsAVVvZpKSuuMV7JNELpgQqz7oisWhXpt";

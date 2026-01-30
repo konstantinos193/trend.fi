@@ -1,0 +1,39 @@
+# Dependencies
+**/node_modules/
+
+# Builds
+**/.next/
+**/dist/
+**/build/
+**/coverage/
+**/.turbo/
+**/.vercel/
+
+# Rust
+**/target/
+**/.cargo/
+smartcontracts/test-ledger/
+
+# Keypairs / secrets
+**/*keypair*.json
+
+# Supabase temp + env
+supabase/.env.local
+supabase/.temp/
+supabase/supabase/.temp/
+**/.supabase/
+
+# Env files
+.env
+.env.*
+**/.env.local
+**/.env.*.local
+
+# Logs
+*.log
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

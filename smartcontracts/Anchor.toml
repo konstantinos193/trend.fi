@@ -1,0 +1,14 @@
+[programs.localnet]
+trendfi_factory = "GoPZh3S6q3K4XqEZPBSKo3qJ5PWYcdHiR4wrMX6si4kn"
+trendfi_oracle = "AoZnjiFNkMH2mGKUfqoF6PTaoUMK4H4GbwXva5Jg1RGz"
+trendfi_trading = "8n4jg5QajLtAsAVVvZpKSuuMV7JNELpgQqz7oisWhXpt"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[toolchain]
+anchor_version = "0.32.1"

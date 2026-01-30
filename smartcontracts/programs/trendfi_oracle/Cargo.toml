@@ -1,0 +1,12 @@
+[package]
+name = "trendfi_oracle"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "trendfi_oracle"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.32.1"
+trendfi_shared = { path = "../trendfi_shared" }

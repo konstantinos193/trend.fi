@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "programs/trendfi_shared",
+    "programs/trendfi_factory",
+    "programs/trendfi_oracle",
+    "programs/trendfi_trading"
+]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true

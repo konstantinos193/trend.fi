@@ -1,0 +1,42 @@
+<svg width="640" height="220" viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bannerBg" x1="0" y1="0" x2="640" y2="220">
+      <stop offset="0%" stop-color="#01020f" />
+      <stop offset="60%" stop-color="#030718" />
+      <stop offset="100%" stop-color="#050c29" />
+    </linearGradient>
+    <linearGradient id="chartLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9bffe5" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+    <filter id="halo" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+  </defs>
+  <rect width="640" height="220" rx="32" fill="url(#bannerBg)" />
+  <rect x="16" y="16" width="608" height="188" rx="28" stroke="rgba(248,250,252,0.15)" stroke-width="1.5" />
+  <circle cx="220" cy="115" r="76" fill="url(#pulseGlow)" filter="url(#halo)" />
+  <path
+    d="M60 150L168 82L268 132L360 92L468 148L544 80"
+    stroke="url(#chartLine)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <text x="60" y="92" fill="#9bffe5" font-family="Space Grotesk, Inter, sans-serif" font-size="54" font-weight="700">
+    TrendFi
+  </text>
+  <text x="60" y="128" fill="#dbeafe" font-family="Space Grotesk, Inter, sans-serif" font-size="16" letter-spacing="0.3em">
+    ATTENTION DERIVATIVES
+  </text>
+  <text x="60" y="156" fill="#dbeafe" font-family="Space Grotesk, Inter, sans-serif" font-size="16" letter-spacing="0.3em">
+    MARKET
+  </text>
+  <text x="340" y="138" fill="#b4c3ff" font-family="Space Grotesk, Inter, sans-serif" font-size="14">
+    Normalize Google + social + Solana → live oracle momentum
+  </text>
+</svg>
