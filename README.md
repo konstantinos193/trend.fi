@@ -5,6 +5,9 @@ Trading real-world trends on Solana. Turning internet attention into on-chain ma
 ## Overview
 TrendFi turns live trend data into on-chain market signals. The pipeline ingests real-world attention, normalizes it, and exposes it to the app and on-chain programs.
 
+## Problem + opportunity
+Markets price assets, but attention moves first. TrendFi makes attention measurable and tradeable by turning live trend signals into on-chain data that can power markets, analytics, and new financial primitives.
+
 ## Why this matters
 Attention moves markets before prices do. TrendFi makes attention measurable and tradeable by turning live trend signals into on-chain data that can power markets, analytics, and new financial primitives.
 
@@ -30,6 +33,9 @@ Sample snapshot payload from the ingestion pipeline:
   "timestamp": "2026-01-30T10:45:00Z"
 }
 ```
+
+## Screenshots
+Coming soon. The initial UI mock and data ingestion preview will be added here.
 
 ## MVP goals
 - Ingest Google Trends snapshots on a schedule
@@ -75,7 +81,7 @@ supabase start
 See `ROADMAP.md`.
 
 ## Status
-Early build. Shipping in public.
+Early prototype. Ingestion pipeline in progress. UI mock coming soon.
 
 ## Contact
 Built by Konstantinos — GitHub: https://github.com/konstantinos193
