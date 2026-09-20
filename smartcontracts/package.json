@@ -1,0 +1,37 @@
+{
+  "name": "trendfi-ethereum",
+  "version": "1.0.0",
+  "description": "TrendFi Ethereum Smart Contracts",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:security": "node test/runSecurityTests.js",
+    "test:security-core": "hardhat test test/Security.test.js",
+    "test:security-extreme": "hardhat test test/ExtremeConditions.test.js",
+    "test:security-oracle": "hardhat test test/Security.test.js --grep \"Oracle Manipulation\"",
+    "test:security-reentrancy": "hardhat test test/Security.test.js --grep \"Reentrancy\"",
+    "test:security-flashloan": "hardhat test test/Security.test.js --grep \"Flash Loan\"",
+    "test:security-mev": "hardhat test test/Security.test.js --grep \"MEV\"",
+    "test:security-liquidation": "hardhat test test/Security.test.js --grep \"Liquidation\"",
+    "test:security-extreme-conditions": "hardhat test test/ExtremeConditions.test.js",
+    "test:security-blackswan": "hardhat test test/ExtremeConditions.test.js --grep \"Black Swan\"",
+    "test:security-volatility": "hardhat test test/ExtremeConditions.test.js --grep \"Volatility\"",
+    "test:security-stress": "hardhat test test/ExtremeConditions.test.js --grep \"Stress\"",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node",
+    "test:eth-fees": "hardhat run scripts/test-eth-fees.js --network hardhat",
+    "test:creator-fees": "hardhat run scripts/test-creator-fees.js --network hardhat",
+    "test:all": "hardhat test && hardhat run scripts/test-eth-fees.js --network hardhat && hardhat run scripts/test-creator-fees.js --network hardhat",
+    "security-audit": "npm run test:security && npm run test:security-extreme-conditions"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "ethers": "^6.8.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}

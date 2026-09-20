@@ -37,3 +37,25 @@ supabase/supabase/.temp/
 Thumbs.db
 .idea/
 .vscode/
+
+# --- hygiene ignores (auto-added) ---
+node_modules/
+dist/
+build/
+out/
+.next/
+target/
+vendor/
+__pycache__/
+.cache/
+coverage/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+*.env
+!.env.example
+!.env.template
+.playwright-mcp/
+.playwright-cli/
+test-ledger/
